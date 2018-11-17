@@ -18,7 +18,10 @@ html {
 }
 
 img {
-  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
 }
 
 dl {
@@ -42,6 +45,7 @@ body {
   margin: .75em;
 }
 
-.img {
+div {
+  display: inline-block;
   text-align: center;
 }
