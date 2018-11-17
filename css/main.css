@@ -16,3 +16,32 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img {
+  width: 25%;
+}
+
+dl {
+  margin: 0;
+  text-align: left;
+}
+
+dd {
+  margin-left: 0;
+}
+
+dt {
+  font-size: 1.5rem;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: .75em;
+}
+
+.img {
+  text-align: center;
+}
