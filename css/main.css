@@ -17,35 +17,32 @@ html {
   box-sizing: inherit;
 }
 
-img {
+.card-img img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1.25em;
   width: 50px;
 }
 
-dl {
-  margin: 0;
+.card {
+  display: inline-block;
   text-align: left;
 }
 
-dd {
-  margin-left: 0;
-}
-
-dt {
-  font-size: 1.5rem;
-}
-
-html {
+.card-body p {
   margin: 0;
-  padding: 0;
-}
-body {
-  margin: .75em;
+  margin-bottom: 1.25em;
 }
 
-div {
-  display: inline-block;
-  text-align: center;
+.card-body h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.cards {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
